@@ -406,6 +406,10 @@ apt-get install vim
 ```
 Now vi editor is available in MySql container.
 
+**Q** How to find location of a docker container ?
+
+**A** Use command docker container inspect <container id>
+
 ## Recommendation
 This stack has all the basic Docker images (PHP, Apache, and MySQL) and needs to be updated as per the project requirements. Though it runs successfully in the local environment, it's not recommended to use on production environment directly. The idea is to use it as a basic Docker stack, learn and make it available for local development with minimal efforts. In the long run either you can enhance it or may switch on docker4drupal which is a more advanced and powerful Docker image.
 
